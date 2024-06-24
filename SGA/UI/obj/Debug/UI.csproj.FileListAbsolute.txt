@@ -1,0 +1,17 @@
+C:\Users\b-j-e\source\repos\40-CS-SGA\SGA\UI\bin\Debug\UI.exe.config
+C:\Users\b-j-e\source\repos\40-CS-SGA\SGA\UI\bin\Debug\UI.exe
+C:\Users\b-j-e\source\repos\40-CS-SGA\SGA\UI\bin\Debug\UI.pdb
+C:\Users\b-j-e\source\repos\40-CS-SGA\SGA\UI\bin\Debug\BLL.dll
+C:\Users\b-j-e\source\repos\40-CS-SGA\SGA\UI\bin\Debug\DOM.dll
+C:\Users\b-j-e\source\repos\40-CS-SGA\SGA\UI\bin\Debug\SL.dll
+C:\Users\b-j-e\source\repos\40-CS-SGA\SGA\UI\bin\Debug\BLL.pdb
+C:\Users\b-j-e\source\repos\40-CS-SGA\SGA\UI\bin\Debug\DOM.pdb
+C:\Users\b-j-e\source\repos\40-CS-SGA\SGA\UI\bin\Debug\SL.pdb
+C:\Users\b-j-e\source\repos\40-CS-SGA\SGA\UI\obj\Debug\UI.csproj.AssemblyReference.cache
+C:\Users\b-j-e\source\repos\40-CS-SGA\SGA\UI\obj\Debug\UI.csproj.SuggestedBindingRedirects.cache
+C:\Users\b-j-e\source\repos\40-CS-SGA\SGA\UI\obj\Debug\UI.Properties.Resources.resources
+C:\Users\b-j-e\source\repos\40-CS-SGA\SGA\UI\obj\Debug\UI.csproj.GenerateResource.cache
+C:\Users\b-j-e\source\repos\40-CS-SGA\SGA\UI\obj\Debug\UI.csproj.CoreCompileInputs.cache
+C:\Users\b-j-e\source\repos\40-CS-SGA\SGA\UI\obj\Debug\UI.csproj.CopyComplete
+C:\Users\b-j-e\source\repos\40-CS-SGA\SGA\UI\obj\Debug\UI.exe
+C:\Users\b-j-e\source\repos\40-CS-SGA\SGA\UI\obj\Debug\UI.pdb

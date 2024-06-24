@@ -76,5 +76,19 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BLL\BLL.csproj">
+      <Project>{bb05f3b9-711f-4103-83e7-5a59665d2fb6}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DOM\DOM.csproj">
+      <Project>{8c419978-3f6f-4b78-8d0b-2f4993bb55c2}</Project>
+      <Name>DOM</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SL\SL.csproj">
+      <Project>{4bab27e4-bf82-43fb-9663-76d752b12481}</Project>
+      <Name>SL</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

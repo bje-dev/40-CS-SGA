@@ -1,0 +1,6 @@
+C:\Users\b-j-e\source\repos\40-CS-SGA\SGA\SL\bin\Debug\SL.dll
+C:\Users\b-j-e\source\repos\40-CS-SGA\SGA\SL\bin\Debug\SL.pdb
+C:\Users\b-j-e\source\repos\40-CS-SGA\SGA\SL\obj\Debug\SL.csproj.AssemblyReference.cache
+C:\Users\b-j-e\source\repos\40-CS-SGA\SGA\SL\obj\Debug\SL.csproj.CoreCompileInputs.cache
+C:\Users\b-j-e\source\repos\40-CS-SGA\SGA\SL\obj\Debug\SL.dll
+C:\Users\b-j-e\source\repos\40-CS-SGA\SGA\SL\obj\Debug\SL.pdb
