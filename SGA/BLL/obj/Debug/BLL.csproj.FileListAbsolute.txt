@@ -1,3 +1,5 @@
+C:\Users\b-j-e\source\repos\40-CS-SGA\SGA\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\b-j-e\source\repos\40-CS-SGA\SGA\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
 C:\Users\b-j-e\source\repos\40-CS-SGA\SGA\BLL\bin\Debug\BLL.dll
 C:\Users\b-j-e\source\repos\40-CS-SGA\SGA\BLL\bin\Debug\BLL.pdb
 C:\Users\b-j-e\source\repos\40-CS-SGA\SGA\BLL\bin\Debug\DAL.dll
@@ -6,8 +8,6 @@ C:\Users\b-j-e\source\repos\40-CS-SGA\SGA\BLL\bin\Debug\SL.dll
 C:\Users\b-j-e\source\repos\40-CS-SGA\SGA\BLL\bin\Debug\DAL.pdb
 C:\Users\b-j-e\source\repos\40-CS-SGA\SGA\BLL\bin\Debug\DOM.pdb
 C:\Users\b-j-e\source\repos\40-CS-SGA\SGA\BLL\bin\Debug\SL.pdb
-C:\Users\b-j-e\source\repos\40-CS-SGA\SGA\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
-C:\Users\b-j-e\source\repos\40-CS-SGA\SGA\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
 C:\Users\b-j-e\source\repos\40-CS-SGA\SGA\BLL\obj\Debug\BLL.csproj.CopyComplete
 C:\Users\b-j-e\source\repos\40-CS-SGA\SGA\BLL\obj\Debug\BLL.dll
 C:\Users\b-j-e\source\repos\40-CS-SGA\SGA\BLL\obj\Debug\BLL.pdb

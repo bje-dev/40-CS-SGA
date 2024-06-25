@@ -1,11 +1,11 @@
+C:\Users\b-j-e\source\repos\40-CS-SGA\SGA\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\b-j-e\source\repos\40-CS-SGA\SGA\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
 C:\Users\b-j-e\source\repos\40-CS-SGA\SGA\DAL\bin\Debug\DAL.dll
 C:\Users\b-j-e\source\repos\40-CS-SGA\SGA\DAL\bin\Debug\DAL.pdb
 C:\Users\b-j-e\source\repos\40-CS-SGA\SGA\DAL\bin\Debug\DOM.dll
 C:\Users\b-j-e\source\repos\40-CS-SGA\SGA\DAL\bin\Debug\SL.dll
 C:\Users\b-j-e\source\repos\40-CS-SGA\SGA\DAL\bin\Debug\DOM.pdb
 C:\Users\b-j-e\source\repos\40-CS-SGA\SGA\DAL\bin\Debug\SL.pdb
-C:\Users\b-j-e\source\repos\40-CS-SGA\SGA\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
-C:\Users\b-j-e\source\repos\40-CS-SGA\SGA\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
 C:\Users\b-j-e\source\repos\40-CS-SGA\SGA\DAL\obj\Debug\DAL.csproj.CopyComplete
 C:\Users\b-j-e\source\repos\40-CS-SGA\SGA\DAL\obj\Debug\DAL.dll
 C:\Users\b-j-e\source\repos\40-CS-SGA\SGA\DAL\obj\Debug\DAL.pdb

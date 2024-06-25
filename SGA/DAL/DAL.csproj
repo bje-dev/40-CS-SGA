@@ -42,7 +42,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="Contracts\DALIGenericRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tools\SqlHelper.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DOM\DOM.csproj">
@@ -53,6 +55,14 @@
       <Project>{4bab27e4-bf82-43fb-9663-76d752b12481}</Project>
       <Name>SL</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Factory\" />
+    <Folder Include="Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Tools\singleton.snippet" />
+    <None Include="Tools\statements.snippets" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

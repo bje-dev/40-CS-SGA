@@ -41,8 +41,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="BLLCliente.cs" />
+    <Compile Include="BLLEstadoSolicitud.cs" />
+    <Compile Include="BLLFactura.cs" />
+    <Compile Include="BLLFacturaDetalle.cs" />
+    <Compile Include="BLLMarca.cs" />
+    <Compile Include="BLLModelo.cs" />
+    <Compile Include="BLLOt.cs" />
+    <Compile Include="BLLOtDetalle.cs" />
+    <Compile Include="BLLPago.cs" />
+    <Compile Include="BLLPpto.cs" />
+    <Compile Include="BLLPptoDetalle.cs" />
+    <Compile Include="BLLPrioridad.cs" />
+    <Compile Include="BLLRepuesto.cs" />
+    <Compile Include="BLLSolicitud.cs" />
+    <Compile Include="BLLUnidad.cs" />
+    <Compile Include="BLLUsuario.cs" />
+    <Compile Include="Contracts\BLLIGenericRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\BLLIClientRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DAL\DAL.csproj">
@@ -58,5 +75,6 @@
       <Name>SL</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
