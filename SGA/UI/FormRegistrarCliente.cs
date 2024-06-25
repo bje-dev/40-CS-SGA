@@ -3,6 +3,7 @@ using DOM;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 using System.Data;
 using System.Drawing;
 using System.Linq;
@@ -21,6 +22,8 @@ namespace UI
             InitializeComponent();
             textBox13.Visible= false;
             textBox14.Visible= false;
+            label13.Visible= false;
+            label14.Visible= false;
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -47,11 +50,34 @@ namespace UI
                 var chatid= textBox14.Text;
 
             }
+            List<ValidationResult> errors = new List<ValidationResult>();
 
-            BLLCliente bllcliente = new BLLCliente();
-            bllcliente.Create(cliente);
+            ValidationContext validationContextCliente = new ValidationContext(cliente, null, null);
+            Validator.TryValidateObject(cliente, validationContextCliente, errors, true);
 
-            LimpiarCampos();
+            ValidationContext validationContextUsuario = new ValidationContext(cliente.usuario, null, null);
+            Validator.TryValidateObject(cliente.usuario, validationContextUsuario, errors, true);
+
+
+            if (errors.Count() > 0)
+            {
+                string errorMessages = string.Empty;
+
+                foreach (var error in errors)
+                {
+                    errorMessages += error.ErrorMessage + Environment.NewLine;
+                }
+                MessageBox.Show(errorMessages);
+            }
+            else
+            {
+                BLLCliente bllcliente = new BLLCliente();
+                bllcliente.Create(cliente);
+
+                MessageBox.Show("Cliente registrado");
+
+                LimpiarCampos();
+            }
 
 
         }

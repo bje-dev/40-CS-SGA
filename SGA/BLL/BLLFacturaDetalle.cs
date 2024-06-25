@@ -6,7 +6,25 @@ using System.Threading.Tasks;
 
 namespace BLL
 {
-    internal class BLLFacturaDetalle
+
+
+	public sealed class BLLFacturaDetalle
     {
-    }
+		private readonly static BLLFacturaDetalle _instance = new BLLFacturaDetalle();
+
+		public static BLLFacturaDetalle Current
+		{
+			get
+			{
+				return _instance;
+			}
+		}
+
+		private BLLFacturaDetalle()
+		{
+			//Implent here the initialization of your singleton
+		}
+	}
+
+	
 }

@@ -6,7 +6,25 @@ using System.Threading.Tasks;
 
 namespace BLL
 {
-    internal class BLLModelo
+
+
+	public sealed class BLLModelo
     {
-    }
+		private readonly static BLLModelo _instance = new BLLModelo();
+
+		public static BLLModelo Current
+		{
+			get
+			{
+				return _instance;
+			}
+		}
+
+		private BLLModelo()
+		{
+			//Implent here the initialization of your singleton
+		}
+	}
+
+	
 }

@@ -59,7 +59,7 @@
     <Compile Include="BLLUsuario.cs" />
     <Compile Include="Contracts\BLLIGenericRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Services\BLLIClientRepository.cs" />
+    <Compile Include="Services\BLLIClienteRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\DAL\DAL.csproj">

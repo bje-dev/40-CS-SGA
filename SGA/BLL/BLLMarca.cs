@@ -6,7 +6,24 @@ using System.Threading.Tasks;
 
 namespace BLL
 {
-    internal class BLLMarca
+
+	public sealed class BLLMarca
     {
-    }
+		private readonly static BLLMarca _instance = new BLLMarca();
+
+		public static BLLMarca Current
+		{
+			get
+			{
+				return _instance;
+			}
+		}
+
+		private BLLMarca()
+		{
+			//Implent here the initialization of your singleton
+		}
+	}
+
+	
 }

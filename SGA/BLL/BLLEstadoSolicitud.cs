@@ -6,7 +6,23 @@ using System.Threading.Tasks;
 
 namespace BLL
 {
-    internal class BLLEstadoSolicitud
+
+	public sealed class BLLEstadoSolicitud
     {
-    }
+		private readonly static BLLEstadoSolicitud _instance = new BLLEstadoSolicitud();
+
+		public static BLLEstadoSolicitud Current
+		{
+			get
+			{
+				return _instance;
+			}
+		}
+
+		private BLLEstadoSolicitud()
+		{
+			//Implent here the initialization of your singleton
+		}
+	}
+
 }

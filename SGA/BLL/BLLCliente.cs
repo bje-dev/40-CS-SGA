@@ -1,4 +1,5 @@
 ﻿using BLL.Contracts;
+using BLL.Services;
 using DOM;
 using System;
 using System.Collections.Generic;
@@ -8,41 +9,44 @@ using System.Threading.Tasks;
 
 namespace BLL
 {
-    public class BLLCliente : BLLIGenericRepository<Cliente>
+    public sealed class BLLCliente : BLLIClienteRepository<Cliente>
     {
-        public void Create(Cliente obj)
-        {
-            try
-            {
-                if (obj.nombre=="" || obj.apellido=="" || obj.dni=="" || obj.telefono=="")
-                {
-                    
-                    throw new Exception();
-                }
-            }
-            catch (Exception)
-            {
+        private readonly static BLLCliente _instance = new BLLCliente();
 
-                throw;
+        public static BLLCliente Current
+        {
+            get
+            {
+                return _instance;
             }
         }
 
-        public void Delete(Guid id)
+        private BLLCliente()
+        {
+            //Implent here the initialization of your singleton
+        }
+
+        public void CrearClienteUsuario(Cliente obj)
         {
             throw new NotImplementedException();
         }
 
-        public IEnumerable<Cliente> GetAll()
+        public void ActualizarClienteUsuario(Cliente obj)
         {
             throw new NotImplementedException();
         }
 
-        public Cliente GetOne(Guid id)
+        public void EliminarClienteUsuario(Guid id)
         {
             throw new NotImplementedException();
         }
 
-        public void Update(Cliente obj)
+        public Cliente ObtenerClienteUsuario(Guid id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public IEnumerable<Cliente> ObtenerClientesUsuarios()
         {
             throw new NotImplementedException();
         }

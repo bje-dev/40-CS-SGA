@@ -9,6 +9,7 @@ namespace DOM
 {
     public class Cliente
     {
+        public int id { get; set; }
 
         [Required(ErrorMessage = "El nombre del cliente es obligatorio.")]
         [StringLength (50)]
@@ -38,9 +39,9 @@ namespace DOM
         public Usuario usuario { get; set; }
 
 
-        public Cliente()
-        {
-            usuario = new Usuario();
-        }
+       // public Cliente()
+        //{
+        //    usuario = new Usuario();
+        //}
     }
 }

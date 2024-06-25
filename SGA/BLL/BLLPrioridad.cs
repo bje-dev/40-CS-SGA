@@ -6,7 +6,24 @@ using System.Threading.Tasks;
 
 namespace BLL
 {
-    internal class BLLPrioridad
+
+	public sealed class BLLPrioridad
     {
-    }
+		private readonly static BLLPrioridad _instance = new BLLPrioridad();
+
+		public static BLLPrioridad Current
+		{
+			get
+			{
+				return _instance;
+			}
+		}
+
+		private BLLPrioridad()
+		{
+			//Implent here the initialization of your singleton
+		}
+	}
+
+	
 }

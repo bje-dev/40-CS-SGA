@@ -6,7 +6,25 @@ using System.Threading.Tasks;
 
 namespace BLL
 {
-    internal class BLLPpto
+
+
+	public sealed class BLLPpto
     {
-    }
+		private readonly static BLLPpto _instance = new BLLPpto();
+
+		public static BLLPpto Current
+		{
+			get
+			{
+				return _instance;
+			}
+		}
+
+		private BLLPpto()
+		{
+			//Implent here the initialization of your singleton
+		}
+	}
+
+	
 }
