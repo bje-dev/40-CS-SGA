@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DOM
 {
-    internal class PptoDetalle
+    public class PptoDetalle
     {
     }
 }

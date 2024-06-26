@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BLL.Services
 {
-    internal class MarcaService
+    internal class PptoDetalleService
     {
     }
 }

@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace DOM
 {
-    internal class Ot
+    public class Ot
     {
+        public int id { get; set; }
+
     }
 }

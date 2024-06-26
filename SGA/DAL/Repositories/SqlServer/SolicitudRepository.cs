@@ -9,11 +9,11 @@ using System.Threading.Tasks;
 namespace DAL.Repositories.SqlServer
 {
 
-	internal class UnidadService : DALIGenericRepository<Unidad>
+	internal sealed class SolicitudRepository : DALIGenericRepository<Solicitud>
     {
-		private readonly static UnidadService _instance = new UnidadService();
+		private readonly static SolicitudRepository _instance = new SolicitudRepository();
 
-		public static UnidadService Current
+		public static SolicitudRepository Current
 		{
 			get
 			{
@@ -21,17 +21,17 @@ namespace DAL.Repositories.SqlServer
 			}
 		}
 
-		private UnidadService()
+		public SolicitudRepository()
 		{
 			//Implent here the initialization of your singleton
 		}
 
-        public void Create(Unidad obj)
+        public void Create(Solicitud obj)
         {
             throw new NotImplementedException();
         }
 
-        public void Update(Unidad obj)
+        public void Update(Solicitud obj)
         {
             throw new NotImplementedException();
         }
@@ -41,12 +41,12 @@ namespace DAL.Repositories.SqlServer
             throw new NotImplementedException();
         }
 
-        public Unidad GetOne(int id)
+        public Solicitud GetOne(int id)
         {
             throw new NotImplementedException();
         }
 
-        public IEnumerable<Unidad> GetAll()
+        public IEnumerable<Solicitud> GetAll()
         {
             throw new NotImplementedException();
         }

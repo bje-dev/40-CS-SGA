@@ -82,6 +82,126 @@ namespace DAL.Factory
         }
 
 
+        public DALIGenericRepository<Factura> GetFacturaRepository()
+        {
+            try
+            {
+                if (datasource.ToLower() == "sql")
+                {
+
+                    return new Repositories.SqlServer.FacturaRepository();
+                }
+                else
+                {
+
+                    throw new ArgumentException($"Data source '{datasource}' not supported.");
+
+                }
+            }
+            catch (Exception ex)
+            {
+                // Registra el error, por ejemplo, en un log
+                //LogError("Error al crear ProductoRepository", ex);
+                throw;
+            }
+        }
+
+        public DALIGenericRepository<Ot> GetOtRepository()
+        {
+            try
+            {
+                if (datasource.ToLower() == "sql")
+                {
+
+                    return new Repositories.SqlServer.OtRepository();
+                }
+                else
+                {
+
+                    throw new ArgumentException($"Data source '{datasource}' not supported.");
+
+                }
+            }
+            catch (Exception ex)
+            {
+                // Registra el error, por ejemplo, en un log
+                //LogError("Error al crear ProductoRepository", ex);
+                throw;
+            }
+        }
+
+        public DALIGenericRepository<Pago> GetPagoRepository()
+        {
+            try
+            {
+                if (datasource.ToLower() == "sql")
+                {
+
+                    return new Repositories.SqlServer.PagoRepository();
+                }
+                else
+                {
+
+                    throw new ArgumentException($"Data source '{datasource}' not supported.");
+
+                }
+            }
+            catch (Exception ex)
+            {
+                // Registra el error, por ejemplo, en un log
+                //LogError("Error al crear ProductoRepository", ex);
+                throw;
+            }
+        }
+
+        public DALIGenericRepository<Solicitud> GetSolicitudRepository()
+        {
+            try
+            {
+                if (datasource.ToLower() == "sql")
+                {
+
+                    return new Repositories.SqlServer.SolicitudRepository();
+                }
+                else
+                {
+
+                    throw new ArgumentException($"Data source '{datasource}' not supported.");
+
+                }
+            }
+            catch (Exception ex)
+            {
+                // Registra el error, por ejemplo, en un log
+                //LogError("Error al crear ProductoRepository", ex);
+                throw;
+            }
+        }
+
+        public DALIGenericRepository<Ppto> GetPptoRepository()
+        {
+            try
+            {
+                if (datasource.ToLower() == "sql")
+                {
+
+                    return new Repositories.SqlServer.PptoRepository();
+                }
+                else
+                {
+
+                    throw new ArgumentException($"Data source '{datasource}' not supported.");
+
+                }
+            }
+            catch (Exception ex)
+            {
+                // Registra el error, por ejemplo, en un log
+                //LogError("Error al crear ProductoRepository", ex);
+                throw;
+            }
+        }
+
     }
 
 	

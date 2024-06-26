@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DOM
 {
-    internal class FacturaDetalle
+    public class FacturaDetalle
     {
     }
 }

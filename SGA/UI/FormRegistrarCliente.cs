@@ -41,8 +41,11 @@ namespace UI
             cliente.codigopostal=textBox8.Text;
             cliente.nacimiento=dateTimePicker1.Value;
             cliente.usuario.alias=textBox9.Text;
-            cliente.usuario.contraseña=textBox10.Text;
-            cliente.usuario.email=textBox12.Text;
+            cliente.usuario.email = textBox10.Text;
+            cliente.usuario.contraseña=textBox11.Text;
+            cliente.usuario.confirma=textBox12.Text;
+            cliente.usuario.perfil = "cliente";
+           
 
             if (checkBox1.Checked)
             {
@@ -73,6 +76,7 @@ namespace UI
             else
             {
                 ClienteService.Current.Create(cliente);
+                UsuarioService.Current.Create(cliente.usuario);
 
                 MessageBox.Show("Cliente registrado!");
 

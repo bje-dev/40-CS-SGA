@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DOM
 {
-    internal class Prioridad
+    public class Prioridad
     {
     }
 }

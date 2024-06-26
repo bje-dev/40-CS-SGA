@@ -12,6 +12,8 @@ namespace DOM
         public int id { get; set; }
 
         public string idioma { get; set; }
+
+        public string perfil { get; set; }
         [Required(ErrorMessage = "El alias del usuario es obligatorio.")]
         [StringLength(50)]
         public string alias { get; set; }
@@ -22,6 +24,9 @@ namespace DOM
         [Required(ErrorMessage = "La contraseña del usuario es obligatoria.")]
         [StringLength(50)]
         public string contraseña { get; set; }
+        [Required(ErrorMessage = "La contraseña del usuario es obligatoria.")]
+        [StringLength(50)]
+        public string confirma { get; set; }
        
         //public List<Familia> Familia { get; set; }
     }

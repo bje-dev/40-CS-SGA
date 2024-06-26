@@ -47,7 +47,13 @@
     <Compile Include="Factory\Fabricacion.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\SqlServer\ClienteRepository.cs" />
-    <Compile Include="Repositories\SqlServer\UnidadService.cs" />
+    <Compile Include="Repositories\SqlServer\FacturaRepository.cs" />
+    <Compile Include="Repositories\SqlServer\OtRepository.cs" />
+    <Compile Include="Repositories\SqlServer\PagoRepository.cs" />
+    <Compile Include="Repositories\SqlServer\PptoDetalleRepository.cs" />
+    <Compile Include="Repositories\SqlServer\PptoRepository.cs" />
+    <Compile Include="Repositories\SqlServer\SolicitudRepository.cs" />
+    <Compile Include="Repositories\SqlServer\UnidadRepository.cs" />
     <Compile Include="Repositories\SqlServer\UsuarioRepository.cs" />
     <Compile Include="Tools\SqlHelper.cs" />
   </ItemGroup>
