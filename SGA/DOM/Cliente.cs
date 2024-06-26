@@ -35,13 +35,15 @@ namespace DOM
         [Required(ErrorMessage = "El codigo postal del cliente es obligatorio.")]
         [StringLength(50)]
         public string codigopostal { get; set; }
+        [Required(ErrorMessage = "La fecha de nacimiento del cliente es obligatoria.")]
+        public DateTime nacimiento { get; set; }
 
         public Usuario usuario { get; set; }
 
 
-       // public Cliente()
-        //{
-        //    usuario = new Usuario();
-        //}
+        public Cliente()
+        {
+            usuario = new Usuario();
+        }
     }
 }

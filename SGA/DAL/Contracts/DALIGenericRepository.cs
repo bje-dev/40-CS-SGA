@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace DAL.Contracts
 {
-    internal interface DALIGenericRepository<T> where T : class, new()
+    public interface DALIGenericRepository<T> where T : class, new()
     {
-        void Add(T obj);
+        void Create(T obj);
 
         void Update(T obj);
 
-        void Delete(Guid id);
+        void Delete(int id);
 
-        T GetOne(Guid id);
+        T GetOne(int id);
 
         IEnumerable<T> GetAll();
     }

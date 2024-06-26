@@ -8,6 +8,8 @@ namespace DOM
 {
     public class Unidad
     {
+        public int id { get; set; }
+
         public string serie { get; set; }
         public int horas { get; set; }
         public string marca { get; set; }

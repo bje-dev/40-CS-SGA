@@ -1,4 +1,4 @@
-﻿using BLL;
+﻿using BLL.Services;
 using DOM;
 using System;
 using System.Collections.Generic;
@@ -39,6 +39,7 @@ namespace UI
             cliente.cuilcuit=textBox6.Text;
             cliente.telefono=textBox7.Text;
             cliente.codigopostal=textBox8.Text;
+            cliente.nacimiento=dateTimePicker1.Value;
             cliente.usuario.alias=textBox9.Text;
             cliente.usuario.contraseña=textBox10.Text;
             cliente.usuario.email=textBox12.Text;
@@ -71,10 +72,9 @@ namespace UI
             }
             else
             {
-                BLLCliente bllcliente = new BLLCliente();
-                bllcliente.Create(cliente);
+                ClienteService.Current.Create(cliente);
 
-                MessageBox.Show("Cliente registrado");
+                MessageBox.Show("Cliente registrado!");
 
                 LimpiarCampos();
             }

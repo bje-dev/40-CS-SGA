@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace BLL.Contracts
 {
-    internal interface BLLIGenericRepository<T>
+    public interface BLLIGenericRepository<T>
     {
         void Create(T obj);
 
         void Update(T obj);
 
-        void Delete(Guid id);
+        void Delete(int id);
 
-        T GetOne(Guid id);
+        T GetOne(int id);
 
         IEnumerable<T> GetAll();
     }
